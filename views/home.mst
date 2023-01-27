@@ -1,3 +1,15 @@
 {{> header}}
 
-<h1> PAGINA HOME </h1>
+<center>
+<h3> PROJETO 2 </h3>
+</center>
+
+<hr/>
+
+<p>Este projeto foi desenvolvido nas aulas de Desenvolvimento Web II, utilizando node.js e outras tecnologias.</p>
+<p><strong>Rota Principal:</strong> http://localhost:1234/</p>
+<p><strong>Rota 1:</strong> http://localhost:1234/rota1</p>
+<p><strong>Rota 2:</strong> http://localhost:1234/rota2</p>
+<br/>
+
+<p><strong>Link do Git Hub do autor:</strong> https://github.com/luislima42</p>

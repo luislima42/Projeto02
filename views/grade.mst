@@ -1,0 +1,12 @@
+{{> header}}
+
+<center>
+<h3> Grade 3° Semestre </h3> 
+</center>
+
+<hr/>
+<ul>
+{{#grade}}
+<li style="color: purple;">{{nome}} - Quantidade de aulas: {{aulas}}</li>
+{{/grade}}
+</ul>

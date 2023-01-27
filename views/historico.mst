@@ -1,0 +1,26 @@
+{{> header}}
+
+<center>
+<h3> Estrutura - Histórico Escolar </h3> 
+<hr/>
+<table>
+<tr style="color: brown">
+<th>Sigla</th>
+<th>Disciplina</th>
+<th>Periodo</th>
+<th>Media Final</th>
+<th>Frequência</th>
+<th>Observação</th>
+</tr>
+{{#historico}}
+<tr>
+<td>{{nome}}</td>
+<td>{{materia}}</td>
+<td>{{ciclo}}</td>
+<td>{{media}}</td>
+<td>{{frequencia}}</td>
+<td>{{resultado}}</td>
+</tr>
+{{/historico}}
+</table>
+</center>
